@@ -9,7 +9,7 @@ For now you can make it work in a few simple steps:
   To download the files :
   * click on the arrow next to **Save to EndNote online*.*
   * click on **Save to Other File Formats** in the menu that just appeared.
-  * enter the required information. Note that you will be able to download only 500 records at the time. Therefore, you will have to repeat that step a few time.
+  * enter the required information. Note that you will be able to download only 500 records at the time. Therefore, you will have to repeat that step a few times.
   * in the record content field choose **Full Record and Cited References**
   * in the file format field choose **Tab-delimited (Win/Mac, UTF-8)**
   
