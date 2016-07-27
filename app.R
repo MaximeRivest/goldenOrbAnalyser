@@ -37,7 +37,7 @@
 # install.packages("ggplot2")
 # install.packages("stringr")
 # install.packages("reshape")
-#
+# devtools::install_github("MaximeRivest/scimeetr")
 #------------------------------------------------------------------------------
 source("from_WOS_files_to_WOS_table.R")
 source("from_scopus_files_to_WOS_table.R")
@@ -70,7 +70,9 @@ source("making_visual.R")
 #cocitation_table <- make_cocitation_table_new(indexed_cr_list, WOS_table)
 
 #WOS workflow
-WOS_table <- from_WOS_files_to_WOS_table("WOS_files/")
+#WOS_table <- from_WOS_files_to_WOS_table("WOS_files/")
+library(scimeetr)
+WOS_table <- import_wos_files("WOS_files/")
 indexed_cr_list <- indexCR(WOS_table)
 cocitation_table <- make_cocitation_table_new(indexed_cr_list, WOS_table)
 
