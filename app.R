@@ -39,7 +39,7 @@
 # install.packages("reshape")
 # devtools::install_github("MaximeRivest/scimeetr")
 #------------------------------------------------------------------------------
-source("from_WOS_files_to_WOS_table.R")
+source("from_WOS_files_to_WOS_table.R")#  should be updated with scimeetr code
 source("from_scopus_files_to_WOS_table.R")
 source("make_clean_cr.R")
 source("indexCR.R")
