@@ -13,8 +13,7 @@ For now you can make it work in a few simple steps:
   * in the record content field choose **Full Record and Cited References**
   * in the file format field choose **Tab-delimited (Win/Mac, UTF-8)**
   
-* If you are on windows. Their are encoding issues with the files. To correct this issue you need to open each savedrec.txt files in Notepad++. For each file you have to click on `Encoding`, then `Convert to ANSI`, then `Encoding` again, then `Convert to UTF-8`. Finally you can save the file.
 * Now for windows, Linux and Mac users alike, you can put all the downloaded files in a folder which you should name `WOS_files/`. This folder should be in the `goldenOrbAnalyser/` directory.
 * Now you can open R console or Rstudio or anything else you use.
-* In the console you should run `setwd('path to goldenOrbWeaver/')` where you replace path to goldenOrbWeaver with the path on your computer.
+* In the console you should run `setwd('path to goldenOrbAnalyser/')` where you replace path to goldenOrAnalyser with the path on your computer.
 * Then you can finally open the app.R script and run all lines. Note that you should install the required packages before hand. A list of those is provided at the top of the app.R script. Note that the `make_cocitation_table_new()` function takes a while and that if you have more then approximatly 7000 records in your `WOS_files/` in a computer with 4.00 GB of ram it will abruptly(are not so abruptly because it will lag much) stop the analysis.
