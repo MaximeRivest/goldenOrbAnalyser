@@ -46,7 +46,7 @@ make_scopus_cited_reference_df <- function(dictionnary) {
     if ( length(startpos) !=0 ){
     simple_doi <- substr(doi, startpos,nchar(doi))
     doi <- substr(doi, startpos,nchar(doi))
-    doi <- paste('<a href="http://dx.doi.org/',doi,'">',doi,'</a>', sep = "")
+    doi <- paste('<a href="https://doi.org/',doi,'">',doi,'</a>', sep = "")
     } else simple_doi <- NA
     splitted_cited_reference_df[current_row,2:8] <- list(
       author,
